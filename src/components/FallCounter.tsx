@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -97,9 +96,10 @@ const FallCounter = () => {
       </Card>
 
       {/* Info Text */}
-      <p className="text-center text-sm text-gray-500 mt-4">
-        Deine Daten werden lokal gespeichert und bleiben privat
-      </p>
+      <div className="text-center text-sm text-gray-500 mt-4 space-y-1">
+        <p>Deine Daten werden lokal gespeichert und bleiben privat, mili</p>
+        <p>Erstellt von Doombotino</p>
+      </div>
     </div>
   );
 };
